@@ -28,7 +28,7 @@ def play(x):
             highestRounds = rounds
         totalTurns = totalTurns + rounds
         averagePerTurn = totalTurns / y
-        if y % 100000 == 0:
+        if y % 1000 == 0:
             print(y)
     print(f'The new Total Turns are: {totalTurns}')
     print(f'The average amount of turns are: {averagePerTurn}')
